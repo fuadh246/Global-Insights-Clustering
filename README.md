@@ -4,6 +4,8 @@ Global Insights: Country Clustering Analysis Using Unsupervised Machine Learning
 ## Overview
 This project aims to provide insights into global data through clustering analysis. By leveraging clustering algorithms, the project seeks to group similar data points together, thereby revealing patterns and structures within the dataset. This can facilitate understanding and decision-making in various domains such as business, economics, and social sciences.
 
+![Choropleth Map](/Img/choropleth_map_of_all_countries.png)
+
 ## Features
 - **Data Exploration**: The notebook provides a comprehensive exploration of the dataset, including summary statistics, visualization of distributions, and identification of potential outliers.
 - **Preprocessing**: Data preprocessing steps are included to clean and prepare the dataset for clustering analysis. This may involve handling missing values, feature scaling, and encoding categorical variables.
@@ -36,4 +38,4 @@ Contributions to this project are welcome! If you find any issues or have sugges
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/)
