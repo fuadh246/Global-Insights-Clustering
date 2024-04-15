@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://fuadh246.github.io/Global-Insights-Clustering/Cluster.html
+      url: https://fuadh246.github.io/Global-Insights-Clustering/model/Cluster.html
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
