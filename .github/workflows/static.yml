@@ -40,8 +40,11 @@ jobs:
       # Step to generate HTML from Jupyter notebook
       - name: Generate HTML from Jupyter Notebook
         run: |
-          # Execute the get_HTML.sh script
+          # Navigate to the model directory
+          cd model
+          # Make the script executable
           chmod +x get_HTML.sh
+          # Execute the script
           ./get_HTML.sh
 
       - name: Setup Pages
