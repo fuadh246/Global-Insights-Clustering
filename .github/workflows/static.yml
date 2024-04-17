@@ -31,6 +31,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        
+      # Step to generate HTML from Jupyter notebook
+      - name: Generate HTML from Jupyter Notebook
+        run: |
+          # Execute the get_HTML.sh script
+          chmod +x get_HTML.sh
+          ./get_HTML.sh
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
